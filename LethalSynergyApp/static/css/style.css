@@ -1,14 +1,32 @@
 body {
   background-color: black;
 }
+
+@media (max-width: 990)
+.navbar {
+  height: 100%;
+}
 .navbar {
   display: flex;
   border: 1px solid red;
 }
 .navbar-brand {
+  font-family: 'New Rocker', cursive;
+  font-size: 40px;
   margin-left: 40px;
   margin-right: 40px;
+  transform: translateY(calc(50% - 30px))
 }
 .navbar-collapse {
   justify-content: center;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  
+}
+.nav-link {
+  font-family: 'Germania One', cursive;
+  margin-right: 40px;
+  margin-left: 40px;
 }
