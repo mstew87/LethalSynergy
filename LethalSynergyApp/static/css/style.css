@@ -8,14 +8,13 @@ body {
 }
 .navbar {
   display: flex;
+  background-color: transparent;
   border: 1px solid red;
 }
 .navbar-brand {
   font-family: 'New Rocker', cursive;
-  font-size: 40px;
   margin-left: 40px;
   margin-right: 40px;
-  transform: translateY(calc(50% - 30px))
 }
 .navbar-collapse {
   justify-content: center;
