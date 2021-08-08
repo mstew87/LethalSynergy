@@ -1,7 +1,28 @@
-body {
+html, body {
   background-color: black;
+  height: 100%;
+}
+.container {
+display: flex;
+justify-content: center;
+width: 100%;
+height: 100%;
 }
 
+/* About Us */
+#aboutContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  height: 50%;
+  width: 80%;
+  padding: 29px;
+  margin-top: 10%;
+}
+/* Navbar */
 @media (max-width: 990)
 .navbar {
   height: 100%;
