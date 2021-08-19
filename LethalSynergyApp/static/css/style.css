@@ -6,7 +6,6 @@ html, body {
 display: flex;
 justify-content: center;
 width: 100%;
-
 }
 /* Index  */
 .flex-container {
@@ -29,6 +28,12 @@ width: 100%;
   padding: 10px;
   width: 50%;
   height: 400px;
+}
+#joinToday {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
 .news-text {
   /* border: 2px solid red; */
