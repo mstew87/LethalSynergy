@@ -54,6 +54,19 @@ width: 100%;
   padding: 29px;
   margin-top: 10%;
 }
+
+/* Supported Games */
+#supported-banners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-img {
+  width: 823px;
+  height: 279px;
+  margin-top: 50px;
+}
+
 /* Navbar */
 @media (max-width: 990)
 .navbar {
