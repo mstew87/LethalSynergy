@@ -5,15 +5,15 @@
   </head>
   <body>
     {% include "partial/nav.html" %}
-    <div class="container">
+    <div class="container" id="supported-banners">
       <div class="wrapper">
-        <h1>FINAL FANTASY XIV</h1>
+        <h1>{% load static %} <img src="{% static "/media/ffxiv_banner.jpg" %}" alt="FFXIV"/></h1>
       </div>
       <div class="wrapper">
-        <h1>ELDER SCROLLS ONLINE</h1>
+        <h1>{% load static %} <img src="{% static "/media/eso_banner.jpg" %}" alt="ESO"/></h1>
       </div>
       <div class="wrapper">
-        <h1>LOST ARK</h1>
+        <h1>{% load static %} <img src="{% static "/media/lostark_banner.jpeg" %}" alt="Lost Ark"/></h1>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
