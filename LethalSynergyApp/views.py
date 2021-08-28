@@ -11,3 +11,9 @@ def supported(request):
 
 def ffxiv(request):
   return render(request, 'ffxiv.html')
+
+def lost_ark(request):
+  return render(request, 'lost_ark.html')
+
+def eso(request):
+  return render(request, 'eso.html')
