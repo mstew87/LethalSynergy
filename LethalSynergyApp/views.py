@@ -12,5 +12,8 @@ def ffxiv(request):
 def lost_ark(request):
   return render(request, 'lost_ark.html')
 
+def elyon(request):
+  return render(request, 'elyon.html')
+
 def eso(request):
   return render(request, 'eso.html')
